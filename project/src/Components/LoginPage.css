@@ -1,0 +1,89 @@
+/* LoginPage.css */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ece9e6, #ffffff);
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px 40px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #444;
+  font-weight: 500;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+select:focus,
+input:focus {
+  border-color: #007bff;
+}
+
+button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.phone-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.phone-input span {
+  background-color: #f1f1f1;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  color: #333;
+  font-weight: 500;
+}
